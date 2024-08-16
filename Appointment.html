@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment</title>
+    <link rel="stylesheet" href="Appointment.css">
+</head>
+
+<body>
+    <header>
+        <h1>Doctor Appointment</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Doctors.html">Doctors</a>
+        <a href="Patient.html">Patients</a>
+        <a href="Appointment.html">Appointments</a>
+        <a href="Service.html">Services</a>
+        <!-- Add more links for other sections as needed -->
+    </nav>
+    <div class="container">
+        <form id="appointmentForm" action="appointment.php" method="post" onsubmit="return validateForm()">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Message (Optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" class="button" name="Appbtn" >
+        </form>
+    </div>
+
+    <script src="js/script1.js"></script>
+</body>
+</html>

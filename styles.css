@@ -1,0 +1,47 @@
+ /* CSS styling goes here */
+ body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background-image: url(HMS.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 18px;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    color: black;
+}
